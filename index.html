@@ -4,15 +4,20 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <title>git测试</title>
+   <title>git命令</title>
+   <style>
+         pre {
+               font-size: 20px;
+         }
+   </style>
 </head>
 <body> 
       <pre>
-git  init                      初始化
+git  init                     初始化
 
-git  status                    查看状态
+git  status                   查看状态
 
-git  add                      添加到暂存区
+git  add  文件名/.             添加到暂存区
 
 git  commit  -m               添加到get仓库
 
@@ -30,13 +35,17 @@ git分支
 
 git  branch                   查看分支
 
-git  branch  分支名           创建分支
+git  branch  分支名            创建分支
 
 git  checkout    分支名        切换分支
 
 git  merge  来源分支名         合并分支
 
 git  branch -d/-D  分支名      删除分支
+
+git  stash                    临时存储更改
+
+git  stash  pop               恢复临时存储
 
       </pre>
 </body>
